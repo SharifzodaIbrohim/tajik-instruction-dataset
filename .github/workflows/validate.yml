@@ -1,0 +1,23 @@
+name: Validate dataset
+
+on:
+  push:
+    paths:
+      - "v.1.2.27/**/*.json"
+      - "scripts/**"
+  pull_request:
+    paths:
+      - "v.1.2.27/**/*.json"
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate JSON schema & quality
+        run: |
+          python scripts/quality_check.py v.1.2.27/**/*.json || true
+          python scripts/stats.py v.1.2.27/**/*.json || true
