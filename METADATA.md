@@ -1,28 +1,30 @@
-# 📊 Метадата — Database
+# Metadata / Метадата
 
-**Лоиҳа:** Васеъкунӣ ва омодасозии базаи додаҳои калимаҳои тоҷикӣ  
-**Созанда:** Sharifzoda Ibrohim  
-**Иҷозатнома:** MIT  
-**Санаи навсозӣ:** 2026-10-03  
-**Версияи охирин:** v.1.2.27
+**Project:** Tajik Instruction Dataset — expanding Tajik vocabulary & conversational data for AI  
+**Author:** Sharifzoda Ibrohim  
+**License:** MIT  
+**Updated:** 2026-10-03  
+**Current version:** v.1.2.27
 
 ---
 
-## Омор
+## English
 
-| Версия | Схема | Мисолҳо |
-|--------|-------|--------|
-| v.1.2.23 | кӯҳна | ~1 500 |
-| v.1.2.24 | кӯҳна | ~950 |
-| v.1.2.25 | кӯҳна | 164 |
-| v.1.2.26 | кӯҳна | ~311 |
-| **v.1.2.27** | **нав** | **80** (seed) |
-| **Ҷамъ** | | **~3 005** |
+### Counts
 
-### v.1.2.27 аз рӯи категория
+| Version | Schema | Examples |
+|---------|--------|----------|
+| v.1.2.23 | legacy | ~1,500 |
+| v.1.2.24 | legacy | ~950 |
+| v.1.2.25 | legacy | 164 |
+| v.1.2.26 | legacy | ~311 |
+| **v.1.2.27** | **new** | **80** (seed) |
+| **Total** | | **~3,005** |
 
-| category | Мисолҳо |
-|----------|--------|
+### v.1.2.27 by category
+
+| category | Count |
+|----------|-------|
 | law | 15 |
 | finance | 15 |
 | language | 14 |
@@ -30,16 +32,24 @@
 | culture | 12 |
 | health | 12 |
 
----
-
-## Схемаи v.1.2.27
+### Schema (v1.2.27)
 
 `id` · `instruction` · `input` · `output` · `category` · `difficulty` · `quality_score`
 
-## Сиёсат
+### Goals
 
-Нигаред ба CONTENT_POLICY.md — дин, порн, хиёнат ба давлат манъ.
+5,000 (short) → 15–20k (medium) → 50k+ (long-term)
 
-## Ҳадаф
+### Discoverability keywords
 
-5 000 (кӯтоҳ) → 15–20к (миёна) → 50к+ (дароз)
+Tajik, Tajikistan, NLP, instruction-tuning, LLM, dataset, low-resource languages, Central Asia, machine learning, fine-tuning
+
+---
+
+## Тоҷикӣ
+
+**Лоиҳа:** Васеъкунӣ ва омодасозии базаи додаҳои калимаҳои тоҷикӣ  
+**Созанда:** Шарифзода Иброҳим  
+**Иҷозатнома:** MIT
+
+Сиёсат: CONTENT_POLICY.md — дин, порн, хиёнат ба давлат манъ.
