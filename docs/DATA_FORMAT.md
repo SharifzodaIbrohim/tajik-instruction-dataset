@@ -1,16 +1,22 @@
-# Формати маълумот (Data Format)
+# Data Format / Формати маълумот
 
-## v.1.2.27+ (схемаи нав)
+**English** | [Тоҷикӣ](#тоҷикӣ)
 
-Ҳар як файл массиви объектҳост:
+---
+
+## English
+
+### Schema (v1.2.27+)
+
+Each JSON file is an array of objects:
 
 ```json
 [
   {
     "id": "v127-0001",
-    "instruction": "Савол ё дархост",
+    "instruction": "Question or task",
     "input": "",
-    "output": "Ҷавоб",
+    "output": "Answer",
     "category": "law",
     "difficulty": "easy",
     "quality_score": 5
@@ -18,49 +24,61 @@
 ]
 ```
 
-### Майдонҳо
+| Field | Description | Required |
+|-------|-------------|----------|
+| `id` | Unique ID (`v127-0001`) | Yes |
+| `instruction` | User question / task | Yes |
+| `input` | Optional context or document | No |
+| `output` | Target answer | Yes |
+| `category` | Topic label | Yes |
+| `difficulty` | `easy` \| `medium` \| `hard` | Yes |
+| `quality_score` | 1–5 (aim ≥ 4) | Recommended |
 
-| Майдон | Тавсиф | Ҳатмӣ |
-|--------|--------|-------|
-| `id` | Рақами ягона (масалан v127-0001) | Ҳа |
-| `instruction` | Савол / дархост | Ҳа |
-| `input` | Контекст ё ҳуҷҷат (холӣ агар нест) | Не |
-| `output` | Ҷавоби табиӣ ва фоиданок | Ҳа |
-| `category` | Категория | Ҳа |
-| `difficulty` | easy / medium / hard | Ҳа |
-| `quality_score` | 1–5 | Тавсия |
+### Priority categories
 
-### Категорияҳо (афзалият)
-
-| category | Мавзӯъ |
+| category | Topic |
 |----------|--------|
-| `law` | Қонун, ҳуҷҷатҳо, ҳуқуқи шаҳрванд, андоз, шиноснома |
-| `finance` | Бонк, қарз, соҳибкорӣ, бозори меҳнат |
-| `science` | Физика, химия, барномасозӣ, AI |
-| `culture` | Шеър, наср, мақол, Наврӯз, Меҳргон |
-| `health` | Саломатӣ, равонӣ, кай ба духтур |
-| `language` | Таъриф, синоним, антоним, идиома |
+| `law` | Documents, citizen rights, taxes, passport |
+| `finance` | Banking, loans, business, labor market |
+| `science` | Physics, chemistry, programming, AI |
+| `culture` | Poetry, prose, proverbs, Navruz, Mehrgon |
+| `health` | Practical health & mental health advice |
+| `language` | Definitions, synonyms, antonyms, idioms |
 
-Дигар: technology, education, family, food, travel, safety, work, daily
+Also used: `technology`, `education`, `family`, `food`, `travel`, `safety`, `work`, `daily`
 
-### Difficulty
-- **easy** — ҷавоби кӯтоҳ, маълумоти умумӣ
-- **medium** — шарҳи бештар, қадамҳо
-- **hard** — ҳуқуқӣ/техникӣ, эҳтиёт
-
-### Quality score
-1 = паст · 3 = қаноатбахш · **4–5 = ҳадаф**
-
-## v.1.2.23 – v.1.2.26 (схемаи кӯҳна)
+### Legacy schema (v1.2.23 – v1.2.26)
 
 ```json
 { "instruction": "...", "input": "", "output": "..." }
 ```
 
-Ин версияҳо таърихӣ нигоҳ дошта мешаванд.
+Kept for historical versions.
 
-## Тақсим (split)
-train 90% / validation 5% / test 5% — скрипти `scripts/split.py`
+### Splits
 
-## Сиёсати мундариҷа
-Нигаред ба [CONTENT_POLICY.md](../CONTENT_POLICY.md)
+`scripts/split.py` → train 90% / validation 5% / test 5%
+
+### Content policy
+
+See [CONTENT_POLICY.md](../CONTENT_POLICY.md)
+
+---
+
+## Тоҷикӣ
+
+### Схемаи v.1.2.27+
+
+| Майдон | Тавсиф | Ҳатмӣ |
+|--------|--------|-------|
+| `id` | Рақами ягона | Ҳа |
+| `instruction` | Савол / дархост | Ҳа |
+| `input` | Контекст (холӣ агар нест) | Не |
+| `output` | Ҷавоб | Ҳа |
+| `category` | Категория | Ҳа |
+| `difficulty` | easy / medium / hard | Ҳа |
+| `quality_score` | 1–5 | Тавсия |
+
+**Афзалият:** law · finance · science · culture · health · language
+
+Версияҳои кӯҳна (`v.1.2.23`–`26`) танҳо `instruction` / `input` / `output` доранд.
