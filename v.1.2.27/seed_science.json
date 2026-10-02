@@ -1,0 +1,110 @@
+[
+  {
+    "id": "v127-0031",
+    "instruction": "Қонуни Ньютон дар бораи ҳаракат чӣ мегӯяд?",
+    "input": "",
+    "output": "Ҷисм дар ҳолати оромӣ ё ҳаракати мувозинат мемонад, агар қувваи беруна набошад. F = ma — қувва бармасса ва шитоб.",
+    "category": "science",
+    "difficulty": "medium",
+    "quality_score": 4
+  },
+  {
+    "id": "v127-0032",
+    "instruction": "Атом аз чӣ иборат аст?",
+    "input": "",
+    "output": "Аз ядро (протон ва нейтрон) ва электронҳое, ки атрофи ядро давр мезананд.",
+    "category": "science",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0033",
+    "instruction": "Чӣ хел барномасозиро оғоз кардан?",
+    "input": "",
+    "output": "Аз Python ё JavaScript. freeCodeCamp, Codecademy, машқи ҳаррӯза. Аввал мантиқи оддӣ, баъд лоиҳаҳои хурд.",
+    "category": "science",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0034",
+    "instruction": "ИИ (AI) чист ва чӣ кор мекунад?",
+    "input": "",
+    "output": "Зеҳни сунъӣ — системаҳое, ки аз маълумот меомӯзанд ва вазифаҳоро анҷом медиҳанд. Тарҷума, тавсия, шинохти тасвир мисолҳоянд.",
+    "category": "science",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0035",
+    "instruction": "Фарқи байни кислота ва асос чист?",
+    "input": "",
+    "output": "Кислота pH паст дорад, асос pH баланд. Онҳо якдигарро безарар мекунанд (нейтрализатсия).",
+    "category": "science",
+    "difficulty": "medium",
+    "quality_score": 4
+  },
+  {
+    "id": "v127-0036",
+    "instruction": "Чӣ хел алгоритми ҷустуҷӯи оддӣ навиштан?",
+    "input": "",
+    "output": "Рӯйхатро як-як тафтиш кунед (linear search). Барои рӯйхати мураттаб — binary search зудтар аст.",
+    "category": "science",
+    "difficulty": "medium",
+    "quality_score": 4
+  },
+  {
+    "id": "v127-0037",
+    "instruction": "Энергияи барқӣ чӣ тавр истеҳсол мешавад?",
+    "input": "",
+    "output": "Аз неругоҳҳои обӣ, гармӣ, офтобӣ, бодӣ. Дар Тоҷикистон неругоҳҳои обӣ нақши калон доранд.",
+    "category": "science",
+    "difficulty": "easy",
+    "quality_score": 4
+  },
+  {
+    "id": "v127-0038",
+    "instruction": "Чӣ хел модели мошини омӯзишӣ (ML) кор мекунад?",
+    "input": "",
+    "output": "Аз маълумот намунаҳо меомӯзад, параметрҳоро танзим мекунад, баъд ба маълумоти нав пешгӯӣ мекунад.",
+    "category": "science",
+    "difficulty": "hard",
+    "quality_score": 4
+  },
+  {
+    "id": "v127-0039",
+    "instruction": "Молекулаи об чӣ гуна сохта шудааст?",
+    "input": "",
+    "output": "Ду атоми гидроген ва як атоми оксиген (H₂O). Байни онҳо пайванди ковалентӣ ҳаст.",
+    "category": "science",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0040",
+    "instruction": "Чӣ хел коди Python-ро барои ҳисоб кардани миёна навиштан?",
+    "input": "",
+    "output": "sum(list) / len(list). Ё statistics.mean(). Аввал рӯйхатро пур кунед, баъд ҳисоб кунед.",
+    "category": "science",
+    "difficulty": "easy",
+    "quality_score": 4
+  },
+  {
+    "id": "v127-0041",
+    "instruction": "Фарқи байни RAM ва хотираи доимӣ чист?",
+    "input": "",
+    "output": "RAM — хотираи муваққатӣ, зуд, ҳангоми хомӯш шудан тоза мешавад. SSD/HDD — доимӣ, маълумот нигоҳ медорад.",
+    "category": "science",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0042",
+    "instruction": "Чӣ хел API кор мекунад?",
+    "input": "",
+    "output": "Интерфейси байни барномаҳо. Дархост мефиристед, ҷавоб (одатан JSON) мегиред. Барои пайваст кардани хизматҳо истифода мешавад.",
+    "category": "science",
+    "difficulty": "medium",
+    "quality_score": 4
+  }
+]
