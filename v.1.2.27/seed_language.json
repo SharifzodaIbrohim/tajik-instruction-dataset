@@ -1,0 +1,128 @@
+[
+  {
+    "id": "v127-0067",
+    "instruction": "Маънои калимаи «меҳрубон» чист?",
+    "input": "",
+    "output": "Касе, ки дилсӯз, накукор ва бо муҳаббат муносибат мекунад.",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0068",
+    "instruction": "Синоними калимаи «хуб» кадомҳоянд?",
+    "input": "",
+    "output": "Нағз, аъло, писандида, мувофиқ, фоиданок (вобаста ба матн).",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0069",
+    "instruction": "Антоними калимаи «калон» чист?",
+    "input": "",
+    "output": "Хурд, майда, ночиз. Антоними калимаи «калон».",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0070",
+    "instruction": "Идиомаи «даст ба даст» чӣ маъно дорад?",
+    "input": "",
+    "output": "Якҷоя, ҳамкорӣ, дастгирии ҳамдигар.",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0071",
+    "instruction": "Фарқи байни «мекунам» ва «мекардам» чист?",
+    "input": "",
+    "output": "«Мекунам» — ҳозира ё оянда. «Мекардам» — гузаштаи давомдор.",
+    "category": "language",
+    "difficulty": "medium",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0072",
+    "instruction": "Маънои калимаи «сабр» чист?",
+    "input": "",
+    "output": "Тоқат, таҳаммул, интизорӣ бидуни шитоб ва ғазаб.",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0073",
+    "instruction": "Синоними «зебо» кадомҳоянд?",
+    "input": "",
+    "output": "Хушрӯй, латиф, дилрабо, нағз (вобаста ба истифода).",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 4
+  },
+  {
+    "id": "v127-0074",
+    "instruction": "Идиомаи «обу оташ» чӣ маъно дорад?",
+    "input": "",
+    "output": "Ду чизи зидди якдигар, ё вазъияти хеле душвор.",
+    "category": "language",
+    "difficulty": "medium",
+    "quality_score": 4
+  },
+  {
+    "id": "v127-0075",
+    "instruction": "Чӣ хел луғати тоҷикиро васеъ кардан?",
+    "input": "",
+    "output": "Ҳар рӯз 5–10 калимаи нав, китоб хонед, бо калонсолон сӯҳбат, мақолҳо ёд гиред.",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0076",
+    "instruction": "Маънои калимаи «ватан» чист?",
+    "input": "",
+    "output": "Кишвари зодгоҳ, ҷойе ки инсон ба он пайвастагӣ ва муҳаббат дорад.",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0077",
+    "instruction": "Антоними «гарм» чист?",
+    "input": "",
+    "output": "Хунук ё сард — муқобили калимаи «гарм».",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0078",
+    "instruction": "Идиомаи «сар ба сар» чӣ маъно дорад?",
+    "input": "",
+    "output": "Баробар, бе фоида ва зарар, ё муқобил гузоштан.",
+    "category": "language",
+    "difficulty": "medium",
+    "quality_score": 4
+  },
+  {
+    "id": "v127-0079",
+    "instruction": "Фарқи байни «гуфт» ва «мегӯяд» чист?",
+    "input": "",
+    "output": "«Гуфт» — гузашта. «Мегӯяд» — ҳозира.",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 5
+  },
+  {
+    "id": "v127-0080",
+    "instruction": "Маънои калимаи «дониш» чист?",
+    "input": "",
+    "output": "Маълумот, фаҳмиш ва таҷрибае, ки инсон тавассути омӯзиш ва зиндагӣ ба даст меорад.",
+    "category": "language",
+    "difficulty": "easy",
+    "quality_score": 5
+  }
+]
