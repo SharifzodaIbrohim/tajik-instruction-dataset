@@ -11,6 +11,8 @@ High-quality **Tajik-language instruction-tuning dataset** for training and fine
 [![Format: JSON](https://img.shields.io/badge/Format-JSON-orange.svg)](#)
 [![Version](https://img.shields.io/badge/version-1.2.27-brightgreen.svg)](CHANGELOG.md)
 
+⭐ **If Tajik deserves a seat at the AI table — leave a star.** One click, zero cost, endless respect for a low-resource language.
+
 ---
 
 ## Why this dataset?
@@ -28,8 +30,8 @@ Tajik is a **low-resource language** in modern NLP. This project builds a clean,
 ## Quick start
 
 ```bash
-git clone https://github.com/SharifzodaIbrohim/Database.git
-cd Database
+git clone https://github.com/SharifzodaIbrohim/tajik-instruction-dataset.git
+cd tajik-instruction-dataset
 
 # Stats
 python scripts/stats.py v.1.2.27/*.json
@@ -84,22 +86,23 @@ Details: [docs/DATA_FORMAT.md](docs/DATA_FORMAT.md)
 ## Repository structure
 
 ```
-Database/
+tajik-instruction-dataset/
 ├── README.md · LICENSE · METADATA.md · CHANGELOG.md · CONTENT_POLICY.md
 ├── DATASET_CARD.md          # Hugging Face dataset card draft
 ├── docs/DATA_FORMAT.md
 ├── scripts/                 # stats, dedup, merge, split, to_jsonl, quality_check
 ├── v.1.2.23 … v.1.2.26      # legacy schema (~2,925 examples)
-└── v.1.2.27/                # current schema (80+ seed examples)
+└── v.1.2.27/                # current schema
     ├── seed_law.json
     ├── seed_finance.json
     ├── seed_science.json
     ├── seed_culture.json
+    ├── seed_culture_2.json
     ├── seed_health.json
     └── seed_language.json
 ```
 
-**Total (approx.): ~3,000 examples** and growing.
+**Total (approx.): ~3,000+ examples** and growing.
 
 ---
 
@@ -130,7 +133,7 @@ See [CONTENT_POLICY.md](CONTENT_POLICY.md).
   author = {Sharifzoda, Ibrohim},
   title  = {Tajik Instruction Dataset},
   year   = {2026},
-  url    = {https://github.com/SharifzodaIbrohim/Database}
+  url    = {https://github.com/SharifzodaIbrohim/tajik-instruction-dataset}
 }
 ```
 
@@ -159,6 +162,8 @@ MIT License · Built to strengthen Tajik in the age of AI 🇹🇯
 
 > Васеъкунии калимаҳо ва захираҳои гуфтугӯии тоҷикӣ барои AI · NLP · забонҳои камзахира.
 
+⭐ **Агар забони тоҷикӣ дар ҷаҳони AI ҷой дошта бошад — як ситора гузоред.** Як клик, бепул, эҳтироми бепоён ба забони мо.
+
 ## Чаро ин лоиҳа?
 
 Тоҷикӣ дар NLP забони **камзахира** аст. Ин репозиторий корпуси тоза ва версиябандишуда месозад, то барномасозон ва муҳаққиқон:
@@ -172,8 +177,8 @@ MIT License · Built to strengthen Tajik in the age of AI 🇹🇯
 ## Оғози зуд
 
 ```bash
-git clone https://github.com/SharifzodaIbrohim/Database.git
-cd Database
+git clone https://github.com/SharifzodaIbrohim/tajik-instruction-dataset.git
+cd tajik-instruction-dataset
 python scripts/stats.py v.1.2.27/*.json
 python scripts/quality_check.py v.1.2.27/seed_law.json
 python scripts/merge.py v.1.2.27/seed_all.json v.1.2.27/seed_*.json
