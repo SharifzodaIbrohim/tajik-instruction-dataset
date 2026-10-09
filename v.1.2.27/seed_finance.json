@@ -1,1 +1,11 @@
-PLACEHOLDER_WILL_REPLACE
+[
+  {
+    "id": "v127-0016",
+    "instruction": "Чӣ хел ҳисоби бонкии шахсӣ кушодан?",
+    "input": "",
+    "output": "Бо шиноснома ба бонк равед, ариза пур кунед, шартҳоро хонед. Фоиз ва ҳаққи хизматро муқоиса кунед.",
+    "category": "finance",
+    "difficulty": "easy",
+    "quality_score": 5
+  }
+]
